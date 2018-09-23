@@ -49,7 +49,7 @@
   $txt .= "  \$SET_imgpath = \"./html/img\"; //이미지 저장 경로\n";
   $txt .= "  \$SET_imgext = \"$imgext\"; //이미지 확장자\n";
   $txt .= "  \$SET_isget = \"$isget\"; //이미지 수집여부\n";
-  $txt .= "  \$SET_htmlpath = \"./html\"; //html 저장경로\n";
+  $txt .= "  \$SET_htmlpath = \"./html\"; //수정금지\n";
   $txt .= "?>\n";
 
   $fp = fopen("./data/settings.php", "w+"); //파일 덮어쓰기
