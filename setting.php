@@ -91,8 +91,6 @@
     echo "\t<strong><span class=\"head\">Setting Page</span></strong><br><br><br>\n";
     echo "\t타이틀 값: <input type=\"text\" name=\"title\" value=\"$SET_title\"><br><br>\n";
     echo "\t아이콘 경로: <input type=\"text\" name=\"icon\" value=\"$SET_iconpath\"><br><br>\n";
-    echo "\t이미지 저장경로: <input type=\"text\" name=\"imgpath\" value=\"$SET_imgpath\"><br><br>\n";
-    echo "\tHTML 저장경로: <input type=\"text\" name=\"htmlpath\" value=\"$SET_htmlpath\"><br><br>\n";
     echo "\t이미지 기본확장자: <input type=\"text\" name=\"imgext\" value=\"$SET_imgext\"><br><br>\n";
     echo "\tReset Password: <br><br>New pass: <input type=\"password\" name=\"password\" maxlength=\"15\"><br>Check pass: <input type=\"password\" name=\"password2\" maxlength=\"15\"><br><br>\n";
     echo "\t색조합(black or white): <select name=\"colorset\">\n";
