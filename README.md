@@ -1,6 +1,7 @@
 # SITEcrawler
 
 링크를 넣으면 본문 내용을 가져오는 PHP 파싱(크롤링) 스크립트입니다.
+실행영상: (https://www.youtube.com/watch?v=RPcl___21xI)
 
 ### NEW
 settings.php 의 $SET_htmlpath 와 $SET_imgpath 변경시 .html 파일을 저장할때 문제점이 발견되었습니다.<br>
