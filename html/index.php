@@ -1,4 +1,4 @@
-<!-- 파일 뷰 -->
+<!-- 파일 뷰어 -->
 <head>
   <style>
   a:link {text-decoration: none; color: #FFFFFF}
