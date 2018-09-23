@@ -8,10 +8,8 @@
   $pass = $_REQUEST['password']; //비번
   $checkpass = $_REQUEST['password2']; //비번확인
   $colorset = $_REQUEST['colorset']; //색조합
-  $imgpath = $_REQUEST['imgpath'];
   $imgext = $_REQUEST['imgext'];
   $isget = $_REQUEST['isget'];
-  $htmlpath = $_REQUEST['htmlpath'];
 
   if (file_exists($settings_filepath)) { //settings.php 파일존재 체크
     include './data/settings.php';
@@ -48,10 +46,10 @@
   $txt .= "  \$SET_colorset = \"$colorset\"; //colorset 색조합 black, white 중 1개\n";
   $txt .= "  \$SET_iconpath = \"$icon\"; //index.php 의 아이콘이미지 경로\n";
   $txt .= "  \$SET_password = \"$hash\"; //password md5 hash\n";
-  $txt .= "  \$SET_imgpath = \"$imgpath\"; //이미지 저장 경로\n";
+  $txt .= "  \$SET_imgpath = \"./html/img\"; //이미지 저장 경로\n";
   $txt .= "  \$SET_imgext = \"$imgext\"; //이미지 확장자\n";
   $txt .= "  \$SET_isget = \"$isget\"; //이미지 수집여부\n";
-  $txt .= "  \$SET_htmlpath = \"$htmlpath\"; //html 저장경로\n";
+  $txt .= "  \$SET_htmlpath = \"./html\"; //html 저장경로\n";
   $txt .= "?>\n";
 
   $fp = fopen("./data/settings.php", "w+"); //파일 덮어쓰기
